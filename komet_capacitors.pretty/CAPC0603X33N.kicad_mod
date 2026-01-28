@@ -1,0 +1,171 @@
+(footprint "CAPC0603X33N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "AVX0201")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "388d65b9-adf9-41a9-9503-6314c3408b45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC0603X33N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "11d34f36-d1e6-449b-8767-673e7de477ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b0d1478-94d2-4213-ae43-baf3f0913b20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "574fcc91-915d-47de-847c-10b8bfb9fab7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.72 -0.37)
+		(end 0.72 -0.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "012bb881-142a-43fb-8a2f-ae2d08ad3edb")
+	)
+	(fp_line
+		(start -0.72 0.37)
+		(end -0.72 -0.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93fa6601-695f-4772-b1e3-c6cfd59f1d9e")
+	)
+	(fp_line
+		(start 0.72 -0.37)
+		(end 0.72 0.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62370eb7-df2b-4cde-badb-04d76f033ca3")
+	)
+	(fp_line
+		(start 0.72 0.37)
+		(end -0.72 0.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1acb9ead-8f87-416e-b8c1-c522433ded31")
+	)
+	(fp_line
+		(start -0.3 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3d2d72b-c94b-4540-87fe-1988eaed0cb1")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fafccbb1-2ef3-4c35-9b89-d0da2dd0fffc")
+	)
+	(fp_line
+		(start 0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6355182-e02a-4da3-acbc-259ed82c10ff")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35a2e791-a40f-4b64-bb5f-26065a99392e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "abae9e40-8344-4389-be5e-9a30a774b23d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.335 0 90)
+		(size 0.44 0.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fddf8115-d259-4e8f-a509-5be263fba973")
+	)
+	(pad "2" smd rect
+		(at 0.335 0 90)
+		(size 0.44 0.47)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a54c6a62-049a-4103-91d6-d6ed84fc4ac5")
+	)
+	(embedded_fonts no)
+	(model "/home/fabio-benjovengo/Documents/Learning/Komet_KiCad_Library/3D_models/02013A120GAT2A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
